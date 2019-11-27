@@ -41,11 +41,12 @@
 4. Run the app in local.
 5. Add a new database model (back end).
 6. Add a new back end api route (back end).
-7. Add a new component (front end).
+7. Add a new component. (front end).
 8. Add a new state.(front end).
-9. Add a new reducer.(front end).
-10. Add a new action.(front end).
-11. Connect component with action or state.(front end)
+9. Add a new type.(front end).
+10. Add a new reducer.(front end).
+11. Add a new action.(front end).
+12. Connect component with action or state.(front end)
 
 ### `Step1: Download the repo and install the dependencies`
 
@@ -180,3 +181,46 @@ $ kill -9 PID
 <p align="center">
 <img src="./assets/106.png" width=85%>
 </p>
+
+### `Step5: Add a new database model (back end).`
+
+#### `Location: ./models`
+- Add a new model here as a js file.
+#### `Location: ./models/index.js`
+- Import the model here.
+
+### `Step6: Add a new back end api route (back end).`
+
+#### `Location: ./api`
+- Add a new route here as a js file.
+#### `Location: ./api/index.js`
+- Import the new route here.
+
+### `Step7: Add a new component (front end).`
+
+#### `Location: ./client/src/components`
+- Add a new component here as a js file.
+
+### `Step8: Add a new state.(front end).`
+
+#### `Location: ./client/src/reducers/index.js`
+- Import the new state from a js file and add it into combineReducers.
+
+### `Step9: Add a new type.(front end).`
+
+#### `Location: ./client/src/actions/types.js`
+- Add a new type variable here.
+
+### `Step10: Add a new reducer.(front end).`
+
+#### `Location: ./client/src/reducers`
+- Add a new reducer here as a js file and export it.
+
+### `Step11: Add a new action.(front end).`
+
+#### `Location: ./client/src/actions`
+- Add a new method or add a new js file here.
+
+### `Step12: Add a new action.(front end).`
+
+#### `Reference:`- [Basic Redux-Connection](https://github.com/DonghaoWu/MERN-Template-Documentation/blob/master/README-Folder/Front-end(part6-9)/9-Redux-Connection.md)
