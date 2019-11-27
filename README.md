@@ -223,4 +223,4 @@ $ kill -9 PID
 
 ### `Step12: Add a new action.(front end).`
 
-#### `Reference:`- [Basic Redux-Connection](https://github.com/DonghaoWu/MERN-Template-Documentation/blob/master/README-Folder/Front-end(part6-9)/9-Redux-Connection.md)
+#### `Reference:`[Basic Redux-Connection](https://github.com/DonghaoWu/MERN-Template-Documentation/blob/master/README-Folder/Front-end(part6-9)/9-Redux-Connection.md)
