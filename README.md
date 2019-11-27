@@ -5,7 +5,7 @@
 ## Quick final view(deployed):
 
 <p align="center">
-<img src="./assets/59.png" width=80%>
+<img src="./assets/59.png" width=85%>
 </p>
 
 ### `Check Dependencies`
@@ -51,7 +51,7 @@
 
 - Copy the repo link.
 <p align="center">
-<img src="./assets/101.png" width=80%>
+<img src="./assets/101.png" width=85%>
 </p>
 
 - Type command in terminal.
@@ -71,10 +71,10 @@ $ git push -u origin master
 
 - Your can find your new repo link here when you create a new repo.
 <p align="center">
-<img src="./assets/102.png" width=80%>
+<img src="./assets/102.png" width=85%>
 </p>
 <p align="center">
-<img src="./assets/103.png" width=80%>
+<img src="./assets/103.png" width=85%>
 </p>
 
 
@@ -86,31 +86,31 @@ $ git push -u origin master
 <li> Set up DataBase access</li>
 
 <p align="center">
-<img src="./assets/1.png" width=80%>
+<img src="./assets/1.png" width=85%>
 </p>
 
 <li> Set up Network access</li>
 
 <p align="center">
-<img src="./assets/2.png" width=80%>
+<img src="./assets/2.png" width=85%>
 </p>
 
 <li> Click on Clusters</li>
 <li> Click on connect</li>
 
 <p align="center">
-<img src="./assets/3.png" width=80%>
+<img src="./assets/3.png" width=85%>
 </p>
 
 <li> Click on Connect to your application</li>
 
 <p align="center">
-<img src="./assets/4.png" width=80%>
+<img src="./assets/4.png" width=85%>
 </p>
 
 <li> Copy your connection string</li>
 <p align="center">
-<img src="./assets/5.png" width=80%>
+<img src="./assets/5.png" width=85%>
 </p>
 
 </ol>
@@ -127,19 +127,19 @@ mongodb+srv://donghao:<password>@cluster-mren-tygf4.mongodb.net/test?retryWrites
 
 - A.
   <p align="center">
-  <img src="./assets/6.png" width=80% align= 'center'>
+  <img src="./assets/6.png" width=85% align= 'center'>
   </p>
 
 - B. you can edit and update your password here.
 
   <p align="center">
-  <img src="./assets/7.png" width=80% align= 'center'>
+  <img src="./assets/7.png" width=85% align= 'center'>
   </p>
 
 - C.
 
 <p align="center">
-<img src="./assets/8.png" width=80% align= 'center'>
+<img src="./assets/8.png" width=85% align= 'center'>
 </p>
 
 - Add code in `default.json`
@@ -161,13 +161,13 @@ $ npm run dev
 - Then you can get this in http://localhost:3000/, and you can register, login and logout, you can find the new user in MongoDB Altas.
 
 <p align="center">
-<img src="./assets/105.png" width=80%>
+<img src="./assets/105.png" width=85%>
 </p>
 
 - Sometime you will have this bug
 
 <p align="center">
-<img src="./assets/104.png" width=80%>
+<img src="./assets/104.png" width=85%>
 </p>
 
 - The way to fix it:
@@ -178,5 +178,5 @@ $ kill -9 PID
 ```
 
 <p align="center">
-<img src="./assets/106.png" width=80%>
+<img src="./assets/106.png" width=85%>
 </p>
