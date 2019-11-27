@@ -14,7 +14,7 @@ DB here!
 connectDB();
 
 /*
-Routes here!
+Routes here!!
 */
 app.use("/api", require("./api"));
 

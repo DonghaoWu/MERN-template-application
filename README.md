@@ -158,29 +158,25 @@ mongodb+srv://donghao:<password>@cluster-mren-tygf4.mongodb.net/test?retryWrites
 $ npm run dev
 ```
 
-
-
-### `Step10: Test and run`
-
-`Location:root directory`
-
-```bash
-$ npm run server
-```
-
-- If you get this, it means everything works well.
+- Then you can get this in http://localhost:3000/, and you can register, login and logout, you can find the new user in MongoDB Altas.
 
 <p align="center">
-<img src="./assets/9.png" width=80%>
+<img src="./assets/105.png" width=80%>
 </p>
 
-`Side-note: What is the middleware used for?(position:*1.3)`
+- Sometime you will have this bug
 
-- app.use(express.json({ extended: false }))
-- app.use(express.urlencoded({ extended: true }))
-- app.use(morgan('dev'))
+<p align="center">
+<img src="./assets/104.png" width=80%>
+</p>
 
-`Side-note: What are these set up used for?(position:*1.2)`
+- The way to fix it:
 
-- useNewUrlParser: true
-- useCreateIndex: true
+```bash
+$ lsof -i tcp:[PORT NUMBER]
+$ kill -9 PID
+```
+
+<p align="center">
+<img src="./assets/106.png" width=80%>
+</p>
