@@ -140,7 +140,7 @@ $ git push heroku master
 ```
 
 #### `Comments:`
-- You can find your heroku remote name here:
+- You can find your heroku remote name in your heroku dashboard:
 
 <p align="center">
 <img src="./assets/54.png" width=90%>
