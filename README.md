@@ -1,29 +1,50 @@
-# MERN-Template(part 1)
+# MERN-Template-Guide
 
-## In this app, I try to build a MERN stack template, which tech stack are 
-- MongoDB, 
-- Node.js, 
-- Express.js, 
-- React.js,
-- Redux.js.
+## This is a guide for using this template.
 
-## `Section: Backend`
+## Quick final view(deployed):
 
-### `Summary`: In this documentation, we build the basic of a MERN stack: set up express server and connect to MongoDB Altas.
+<p align="center">
+<img src="./assets/59.png" width=90%>
+</p>
 
 ### `Check Dependencies`
+`Back end dependencies: ./package.json:`
 
 - express
+- morgan
 - nodemon
 - mongoose
-- config
+- express-validator
+- gravatar
+- bcryptjs
+- jsonwebtoken
+- concurrently
+
+`Front end dependencies: ./client/package.json:`
+
+- react
+- axios
+- react-router-dom
+- redux
+- react-redux
+- redux-thunk
+- redux-devtools-extension
+- moment
+- react-moment
+- uuid
 
 ### `Brief Contents & codes position`
-- *1.1 Create config folder
-- *1.2 Create db initialization
-- *1.3 Set up server and connect db
-- *1.4 Add scripts
-#### `***Before test, you should change the mongoDB connection String and password to your own.`
+1. Download the repo and install the dependencies.
+2. Set up MongoDB Altas.
+3. Create a folder called 'config' in top directory.
+4. Add a new database model (back end).
+5. Add a new back end api route (back end).
+6. Add a new component (front end).
+7. Add a new state.(front end).
+7. Add a new reducer.(front end).
+8. Add a new action.(front end).
+9. Connect component with action or state.(front end)
 
 ### `Step1: MongoDB Altas set up`
 
