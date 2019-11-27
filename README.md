@@ -5,7 +5,7 @@
 ## Quick final view(deployed):
 
 <p align="center">
-<img src="./assets/59.png" width=90%>
+<img src="./assets/59.png" width=80%>
 </p>
 
 ### `Check Dependencies`
@@ -46,7 +46,14 @@
 8. Add a new action.(front end).
 9. Connect component with action or state.(front end)
 
-### `Step1: MongoDB Altas set up`
+### `Step1: Download the repo and install the dependencies`
+
+- Copy the repo link.
+<p align="center">
+<img src="./assets/101.png" width=80%>
+</p>
+
+### `Step2: MongoDB Altas set up`
 
 <ol>
 <li> Sign in</li>

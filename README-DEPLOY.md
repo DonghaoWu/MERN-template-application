@@ -7,22 +7,22 @@
 
 - Go to heroku website, create a new account
 <p align="center">
-<img src="./assets/50.png" width=90%>
+<img src="./assets/50.png" width=80%>
 </p>
 
 - Download the heroku CLI.
 <p align="center">
-<img src="./assets/51.png" width=90%>
+<img src="./assets/51.png" width=80%>
 </p>
 
 - Type `heroku login` in the bash.
 <p align="center">
-<img src="./assets/52.png" width=90%>
+<img src="./assets/52.png" width=80%>
 </p>
 
 - Click Log in button in the browser.
 <p align="center">
-<img src="./assets/53.png" width=90%>
+<img src="./assets/53.png" width=80%>
 </p>
 
 ### `Brief Contents & code position`
@@ -143,30 +143,30 @@ $ git push heroku master
 - You can find your heroku remote name in your heroku dashboard:
 
 <p align="center">
-<img src="./assets/54.png" width=90%>
+<img src="./assets/54.png" width=80%>
 </p>
 
 <p align="center">
-<img src="./assets/55.png" width=90%>
+<img src="./assets/55.png" width=80%>
 </p>
 
 ### `Step6: Test it.`
 
 - Type in the commands in step5.
 <p align="center">
-<img src="./assets/56.png" width=90%>
+<img src="./assets/56.png" width=80%>
 </p>
 
 <p align="center">
-<img src="./assets/57.png" width=90%>
+<img src="./assets/57.png" width=80%>
 </p>
 
 - Deploy success.
 <p align="center">
-<img src="./assets/58.png" width=90%>
+<img src="./assets/58.png" width=80%>
 </p>
 
 - Open the app in heroku.
 <p align="center">
-<img src="./assets/59.png" width=90%>
+<img src="./assets/59.png" width=80%>
 </p>
