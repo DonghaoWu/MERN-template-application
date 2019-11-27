@@ -77,7 +77,7 @@ $ git push -u origin master
 ### `Step2: MongoDB Altas set up`
 
 <ol>
-<li> Sign in</li>
+<li> Sign in or create a new account.</li>
 <li> Build a new Cluster</li>
 <li> Set up DataBase access</li>
 
@@ -111,7 +111,7 @@ $ git push -u origin master
 
 </ol>
 
-### `Step2: Set up your Mongo String`
+### `Step3: Create a file called 'default.json' in 'config' folder`
 
 #### `Now, you can get a connection string like this`
 
@@ -119,7 +119,7 @@ $ git push -u origin master
 mongodb+srv://donghao:<password>@cluster-mren-tygf4.mongodb.net/test?retryWrites=true&w=majority
 ```
 
-#### `Replace the <password> with the user password from MongoDB Altas, you can find it here`
+#### Replace the `<password>` with the user password from MongoDB Altas, you can find it here
 
 - picture 1
 
@@ -127,7 +127,7 @@ mongodb+srv://donghao:<password>@cluster-mren-tygf4.mongodb.net/test?retryWrites
   <img src="./assets/6.png" width=80% align= 'center'>
   </p>
 
-- picture 2 or you can edit and update your password here.
+- picture 2 you can edit and update your password here.
 
   <p align="center">
   <img src="./assets/7.png" width=80% align= 'center'>
