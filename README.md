@@ -37,7 +37,7 @@
 ### `Brief Contents & codes position`
 1. Download the repo and install the dependencies.
 2. Set up MongoDB Altas.
-3. Create a folder called 'config' in top directory.
+3. Create a file called 'default.json' in 'config' folder.
 4. Add a new database model (back end).
 5. Add a new back end api route (back end).
 6. Add a new component (front end).
@@ -53,11 +53,26 @@
 <img src="./assets/101.png" width=80%>
 </p>
 
-- Tpe command in terminal.
+- Type command in terminal.
 ```bash
 $ git clone [Paste repo link here]
-
+$ rm -rf .git
+$ git init
+$ npm install
+$ git add .
+$ git commit -m'first commit'
+$ git remote add origin [your own new repo link]
+$ git push -u origin master
 ```
+
+- Your can find your new repo link here when you create a new repo.
+<p align="center">
+<img src="./assets/102.png" width=80%>
+</p>
+<p align="center">
+<img src="./assets/103.png" width=80%>
+</p>
+
 
 ### `Step2: MongoDB Altas set up`
 
