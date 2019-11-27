@@ -46,7 +46,7 @@
 ```
 
 #### `Comments:`
-- 这上面的内容因人而定，根据mongoDB Altas设定的连接密码，还有自设定的token加密secret。 
+- You have to set up your own MongoDB Altas connection password and your secret to encode token.
 
 ### `Step2: Add code in .gitignore.`
 
@@ -57,7 +57,7 @@ node_modules/
 config/default.json
 ```
 #### `Comments:`
-- 关键数据不上传，但在production.json中？
+- Null.
 
 ### `Step3: Add a script in package.json.`
 
@@ -68,7 +68,7 @@ config/default.json
 ```
 
 #### `Comments:`
-- 暂无。
+- Null.
 
 ### `Step4: Add some code in server.js.`
 
@@ -108,11 +108,11 @@ app.listen(PORT, () => console.log(`server is listening on port ${PORT} ===>`));
 ```
 
 #### `Comments:`
-- 添加代码第一段：
+- First part：
 ```js
 const path = require('path');
 ```
-- 添加代码第二段，这一段一定要放在所有route code以下：
+- Second Part：
 ```js
 //Serve static  assets in production
 if (process.env.NODE_ENV === 'production') {
@@ -123,7 +123,7 @@ if (process.env.NODE_ENV === 'production') {
     })
 }
 ```
-- 另外要注意，process.env.PORT是一定要有的：
+- Notice this is necessary
 ```js
 const PORT = process.env.PORT || 5000;
 ```
