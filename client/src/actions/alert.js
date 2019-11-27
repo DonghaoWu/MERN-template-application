@@ -1,4 +1,3 @@
-//*8.6
 import { SET_ALERT, REMOVE_ALERT } from './types';
 import uuid from 'uuid';
 

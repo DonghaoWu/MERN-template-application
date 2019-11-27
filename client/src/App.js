@@ -1,4 +1,3 @@
-//*6.3 *7.1 *8.2 *9.3 *11.5
 import React, { Fragment, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 //components
@@ -21,7 +20,6 @@ if (localStorage.token) {
 }
 
 const App = () => {
-  //componentDidMount
   useEffect(() => {
     store.dispatch(loadUser());
   }, []);

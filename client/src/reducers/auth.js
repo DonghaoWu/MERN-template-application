@@ -1,4 +1,3 @@
-//*10.3 *11.3 *12.2 *13.2
 import { REGISTER_SUCCESS, REGISTER_FAIL, USER_LOADED, AUTH_ERROR, LOGIN_FAIL, LOGIN_SUCCESS, LOGOUT } from '../actions/types';
 
 const initialState = {

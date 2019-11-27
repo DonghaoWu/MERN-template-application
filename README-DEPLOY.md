@@ -1,4 +1,4 @@
-# MERN-Template(part 14)
+# MERN-Template
 ## `Section: Deploy`(Heroku Deploy)
 
 ### `Summary`: In this documentation, we deploy the MERN template in heroku.
@@ -26,15 +26,15 @@
 </p>
 
 ### `Brief Contents & code position`
-- *14.1 Add a new file in config folder, call 'production.json'.`./config/production.json`
-- *14.2 Add code in .gitignore. `./.gitignore`
-- *14.3 Add a script in package.json `./package.json`
-- *14.4 Add some code in server.js `./server.js`
-- *14.5 Type some commands in bash.
+- 1 Add a new file in config folder, call 'production.json'.`./config/production.json`
+- 2 Add code in .gitignore. `./.gitignore`
+- 3 Add a script in package.json `./package.json`
+- 4 Add some code in server.js `./server.js`
+- 5 Type some commands in bash.
 
 ### `Step1: Add a new file in config folder, call 'production.json.`
 
-#### `(*14.1)Location: ./config/production.json`
+#### `1.Location: ./config/production.json`
 
 - copy all code in default.json
 
@@ -50,7 +50,7 @@
 
 ### `Step2: Add code in .gitignore.`
 
-#### `(*14.2)Location: ./.gitignore`
+#### `2.Location: ./.gitignore`
 
 ```bash
 node_modules/
@@ -61,7 +61,7 @@ config/default.json
 
 ### `Step3: Add a script in package.json.`
 
-#### `(*14.3)Location: ./package.json`
+#### `3.Location: ./package.json`
 
 ```js
 "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
@@ -72,7 +72,7 @@ config/default.json
 
 ### `Step4: Add some code in server.js.`
 
-#### `(*14.4)Location: ./server.js`
+#### `4.Location: ./server.js`
 
 ```js
 const express = require('express');

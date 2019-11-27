@@ -1,5 +1,3 @@
-//*2.3 *4.2, *5.1 *12.bug
-//本代码已经经过修正，修改过程参考part-12
 const router = require('express').Router();
 const auth = require('../middleware/auth');
 const config = require('config');
@@ -72,6 +70,7 @@ router.post(
           res.json({ token: token });
         }
       );
+
     } catch (err) {
       console.error(err.message);
       res.status(500).send('Server error');

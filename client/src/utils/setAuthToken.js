@@ -1,4 +1,3 @@
-//*11.2
 import axios from 'axios';
 
 const setAuthToken = token => {

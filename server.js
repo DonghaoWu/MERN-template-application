@@ -1,4 +1,3 @@
-//*1.3 *2.1
 //package
 const express = require('express');
 const connectDB = require('./config/db');

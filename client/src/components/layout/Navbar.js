@@ -1,4 +1,3 @@
-//*6.4 *7.4 *13.4
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
