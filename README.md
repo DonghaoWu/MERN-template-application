@@ -38,13 +38,14 @@
 1. Download the repo and install the dependencies.
 2. Set up MongoDB Altas.
 3. Create a file called 'default.json' in 'config' folder.
-4. Add a new database model (back end).
-5. Add a new back end api route (back end).
-6. Add a new component (front end).
-7. Add a new state.(front end).
-8. Add a new reducer.(front end).
-9. Add a new action.(front end).
-10. Connect component with action or state.(front end)
+4. Run the app in local.
+5. Add a new database model (back end).
+6. Add a new back end api route (back end).
+7. Add a new component (front end).
+8. Add a new state.(front end).
+9. Add a new reducer.(front end).
+10. Add a new action.(front end).
+11. Connect component with action or state.(front end)
 
 ### `Step1: Download the repo and install the dependencies`
 
@@ -150,125 +151,16 @@ mongodb+srv://donghao:<password>@cluster-mren-tygf4.mongodb.net/test?retryWrites
 }
 ```
 
-### `Step3: Time to code`
+### `Step4: Run the app in local.`
 
-#### - `Install dependencies`
-#### - `DB initialization.`
+- Type command in terminal.
 ```bash
-$ npm install --save mongoose
-$ npm install --save config
+$ npm run dev
 ```
 
-- create a new folder call 'config',then a new file 'default.json'
 
-`(*1.1)location: ./config.default.json`
 
-```js
-{
-    "mongoURI":"mongodb+srv://donghao:<password>@cluster0-qvchz.mongodb.net/test?retryWrites=true&w=majority",
-}
-```
-Notice: `Replace the <password> with the user password`
-
-- create a new file 'db.js'
-
-`(*1.2)location: ./config/db.js`
-
-```js
-const mongoose = require('mongoose');
-const config = require('config');
-const db = config.get('mongoURI');
-
-const connectDB = async () => {
-    try {
-        await mongoose.connect(db, {
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
-            useCreateIndex: true,
-            useFindAndModify: false,
-        });
-        console.log('MongoDb connected...');
-    } catch (err) {
-        console.error(err.message);
-        process.exit(1);
-    }
-}
-
-module.exports = connectDB;
-```
-
-- #### `Express server set up.`
-
-`Install dependencies`
-
-```bash
-$ npm install --save express
-$ npm install --save nodemon
-```
-
-`Add code, location: server.js`
-
-```js
-//package
-const express = require('express');
-//apply
-const app = express();
-//middleware
-app.use(express.json({ extended: false }));
-//port
-const PORT = process.env.PORT || 5000;
-
-/*
-DB here!
-*/
-
-/*
-Routes here!
-*/
-
-app.listen(PORT, () => console.log(`server is listening on port ${PORT} ===>`));
-```
-
-- #### `Finally, server.js should look like this:`
-
-`(*1.3)location: ./server.js`
-
-```js
-//package
-const express = require('express');
-const connectDB = require('./config/db');
-//apply
-const app = express();
-//middleware
-app.use(express.json({ extended: false }));
-//port
-const PORT = process.env.PORT || 5000;
-
-/*
-DB here!
-*/
-connectDB();
-
-/*
-Routes here!
-*/
-
-app.listen(PORT, () => console.log(`server is listening on port ${PORT} ===>`));
-```
-
-`(*1.4)location: ./package.json`: add Scripts
-```js
-  "scripts": {
-    "start": "node server",
-    "server": "nodemon server"
-  },
-```
-
-`Note:`
-
-- Before test, you should change the mongoDB connection String and password to your own.
-
-### `Step4: Test and run`
+### `Step10: Test and run`
 
 `Location:root directory`
 
