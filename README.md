@@ -124,19 +124,18 @@ mongodb+srv://donghao:<password>@cluster-mren-tygf4.mongodb.net/test?retryWrites
 
 #### Replace the `<password>` with the user password from MongoDB Altas, you can find it here
 
-- A
-
+- A.
   <p align="center">
   <img src="./assets/6.png" width=80% align= 'center'>
   </p>
 
-- B you can edit and update your password here.
+- B. you can edit and update your password here.
 
   <p align="center">
   <img src="./assets/7.png" width=80% align= 'center'>
   </p>
 
-- C
+- C.
 
 <p align="center">
 <img src="./assets/8.png" width=80% align= 'center'>
