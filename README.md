@@ -121,23 +121,32 @@ mongodb+srv://donghao:<password>@cluster-mren-tygf4.mongodb.net/test?retryWrites
 
 #### Replace the `<password>` with the user password from MongoDB Altas, you can find it here
 
-- picture 1
+- A
 
   <p align="center">
   <img src="./assets/6.png" width=80% align= 'center'>
   </p>
 
-- picture 2 you can edit and update your password here.
+- B you can edit and update your password here.
 
   <p align="center">
   <img src="./assets/7.png" width=80% align= 'center'>
   </p>
 
-- picture 3
+- C
 
 <p align="center">
 <img src="./assets/8.png" width=80% align= 'center'>
 </p>
+
+- Add code in `default.json`
+
+```js
+{
+    "mongoURI":"mongodb+srv://[connection string with password]",
+    "jwtSecret":"[Put your own token secret here]"
+}
+```
 
 ### `Step3: Time to code`
 
