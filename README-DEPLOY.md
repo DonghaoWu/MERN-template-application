@@ -26,11 +26,11 @@
 </p>
 
 ### `Brief Contents & code position`
-- 1 Add a new file in config folder, call 'production.json'.`./config/production.json`
-- 2 Add code in .gitignore. `./.gitignore`
-- 3 Add a script in package.json `./package.json`
-- 4 Add some code in server.js `./server.js`
-- 5 Type some commands in bash.
+- 1. Add a new file in config folder, call 'production.json'.`./config/production.json`
+- 2. Add code in .gitignore. `./.gitignore`
+- 3. Add a script in package.json `./package.json`
+- 4. Add some code in server.js `./server.js`
+- 5. Type some commands in bash.
 
 ### `Step1: Add a new file in config folder, call 'production.json.`
 
