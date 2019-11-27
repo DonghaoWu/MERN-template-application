@@ -42,9 +42,9 @@
 5. Add a new back end api route (back end).
 6. Add a new component (front end).
 7. Add a new state.(front end).
-7. Add a new reducer.(front end).
-8. Add a new action.(front end).
-9. Connect component with action or state.(front end)
+8. Add a new reducer.(front end).
+9. Add a new action.(front end).
+10. Connect component with action or state.(front end)
 
 ### `Step1: Download the repo and install the dependencies`
 
@@ -52,6 +52,12 @@
 <p align="center">
 <img src="./assets/101.png" width=80%>
 </p>
+
+- Tpe command in terminal.
+```bash
+$ git clone [Paste repo link here]
+
+```
 
 ### `Step2: MongoDB Altas set up`
 
