@@ -158,13 +158,13 @@ mongodb+srv://donghao:<password>@cluster-mren-tygf4.mongodb.net/test?retryWrites
 $ npm run dev
 ```
 
-- Then you can get this in http://localhost:3000/, and you can register, login and logout, you can find the new user in MongoDB Altas.
+- Then you can get this in http://localhost:3000/, now you can register, login and logout, you can find the new user in MongoDB Altas.
 
 <p align="center">
 <img src="./assets/105.png" width=85%>
 </p>
 
-- Sometime you will have this bug
+- If you have this bug
 
 <p align="center">
 <img src="./assets/104.png" width=85%>
