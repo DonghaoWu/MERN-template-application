@@ -59,6 +59,9 @@ $ git clone [Paste repo link here]
 $ rm -rf .git
 $ git init
 $ npm install
+$ cd client
+$ npm install
+$ cd ..
 $ git add .
 $ git commit -m'first commit'
 $ git remote add origin [your own new repo link]
