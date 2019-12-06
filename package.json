@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DonghaoWu/MERN-stack-Level2-RawDemo.git"
+    "url": "git+https://github.com/DonghaoWu/MERN-Template-V1.git"
   },
   "author": "Donghao Wu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DonghaoWu/MERN-stack-Level2-RawDemo/issues"
+    "url": "https://github.com/DonghaoWu/MERN-Template-V1/issues"
   },
-  "homepage": "https://github.com/DonghaoWu/MERN-stack-Level2-RawDemo#readme",
+  "homepage": "https://github.com/DonghaoWu/MERN-Template-V1#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "concurrently": "^5.0.0",
