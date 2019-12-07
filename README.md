@@ -3,6 +3,7 @@
 ## This is a guide for using this template(V1).
 
 ## Final view(deployed):
+### [https://boiling-taiga-76110.herokuapp.com](https://boiling-taiga-76110.herokuapp.com/){:target="_blank"}
 
 <a href="https://boiling-taiga-76110.herokuapp.com/" target="_blank">https://boiling-taiga-76110.herokuapp.com/</a>
 
