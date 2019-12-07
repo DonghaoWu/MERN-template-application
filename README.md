@@ -47,7 +47,7 @@
 10. Add a new reducer (front end).
 11. Add a new action (front end).
 12. Connect component with action or state (front end).
-13. Deploy.
+13. Deploy in Heroku.
 
 ### `Step1: Download the repo and install the dependencies`
 
