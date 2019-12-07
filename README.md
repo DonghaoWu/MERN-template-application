@@ -41,12 +41,13 @@
 4. Run the app in local.
 5. Add a new database model (back end).
 6. Add a new back end api route (back end).
-7. Add a new component. (front end).
-8. Add a new state.(front end).
-9. Add a new type.(front end).
-10. Add a new reducer.(front end).
-11. Add a new action.(front end).
-12. Connect component with action or state.(front end)
+7. Add a new component (front end).
+8. Add a new state (front end).
+9. Add a new type (front end).
+10. Add a new reducer (front end).
+11. Add a new action (front end).
+12. Connect component with action or state (front end).
+13. Deploy.
 
 ### `Step1: Download the repo and install the dependencies`
 
@@ -225,5 +226,5 @@ $ kill -9 PID
 
 ##### `Reference:`[Basic Redux-Connection](https://github.com/DonghaoWu/MERN-Doc-V1/blob/master/README-Folder/Front-end(part6-9)/9-Redux-Connection.md)
 
-### `Step13: Deploy:`
+### `Step13: Deploy.`
 ##### `Reference:`[Deploy in Heroku](https://github.com/DonghaoWu/MERN-Template-V1/blob/master/README-DEPLOY.md)
