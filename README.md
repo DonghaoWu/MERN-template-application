@@ -1,6 +1,6 @@
-# MERN-Template-Guide
+# MERN-Template-V1-Guide
 
-## This is a guide for using this template.
+## This is a guide for using this template(V1).
 
 ## Quick final view(deployed):
 
