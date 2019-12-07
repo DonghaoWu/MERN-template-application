@@ -128,7 +128,7 @@ if (process.env.NODE_ENV === 'production') {
 const PORT = process.env.PORT || 5000;
 ```
 
-### `Step5: Type some code in Bash.`
+### `Step5: Type some commands in Bash.`
 
 ```bash
 $ heroku create
