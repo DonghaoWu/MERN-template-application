@@ -4,7 +4,7 @@
 
 ## Final view(deployed):
 
-#### [https://boiling-taiga-76110.herokuapp.com](https://boiling-taiga-76110.herokuapp.com/)
+### [https://boiling-taiga-76110.herokuapp.com](https://boiling-taiga-76110.herokuapp.com/)
 
 <p align="center">
 <img src="./assets/59.png" width=85%>
