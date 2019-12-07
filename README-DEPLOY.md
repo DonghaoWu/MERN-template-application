@@ -170,3 +170,7 @@ $ git push heroku master
 <p align="center">
 <img src="./assets/59.png" width=85%>
 </p>
+
+<p align="center">
+<img src="./assets/59-2.png" width=85%>
+</p>
