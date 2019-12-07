@@ -170,7 +170,7 @@ $ npm run dev
 <img src="./assets/105.png" width=85%>
 </p>
 
-- If you have this bug -- (Run the same app in different bash or run another app in the same port).
+- If you have this bug -- (Run the same app in different bashes or run another app in the same port).
 
 <p align="center">
 <img src="./assets/104.png" width=85%>
