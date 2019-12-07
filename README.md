@@ -3,11 +3,8 @@
 ## This is a guide for using this template(V1).
 
 ## Final view(deployed):
-### [https://boiling-taiga-76110.herokuapp.com](https://boiling-taiga-76110.herokuapp.com/){:target="_blank"}
 
-<a href="https://boiling-taiga-76110.herokuapp.com/" target="_blank">https://boiling-taiga-76110.herokuapp.com/</a>
-
-<a href="http://example.com/" target="_blank">Hello, world!</a>
+#### [https://boiling-taiga-76110.herokuapp.com](https://boiling-taiga-76110.herokuapp.com/)
 
 <p align="center">
 <img src="./assets/59.png" width=85%>
