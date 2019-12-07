@@ -28,7 +28,7 @@ const Navbar = props => {
     return (
         <nav className="navbar bg-dark">
             <h1>
-                <Link to="/"><i className="fas fa-code"></i> MERN ICON</Link>
+                <Link to="/"><i className="fas fa-code"></i> MERN Template</Link>
             </h1>
             {
                 !auth.loading ? (<Fragment>
