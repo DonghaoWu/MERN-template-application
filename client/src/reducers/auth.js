@@ -1,4 +1,5 @@
 import { REGISTER_SUCCESS, REGISTER_FAIL, USER_LOADED, LOAD_USER_FAILED, NO_LOCAL_TOKEN, LOGIN_FAIL, LOGIN_SUCCESS, LOGOUT } from '../actions/types';
+import setAuthToken from '../utils/setAuthToken';
 
 const initialState = {
     token: localStorage.getItem('token'),
