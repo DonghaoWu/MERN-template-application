@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { REGISTER_SUCCESS, REGISTER_FAIL, USER_LOADED, AUTH_ERROR, LOGIN_SUCCESS, LOGIN_FAIL, LOGOUT } from './types';
+import { REGISTER_SUCCESS, REGISTER_FAIL, USER_LOADED, LOGIN_SUCCESS, LOGIN_FAIL, LOGOUT, LOAD_USER_FAILED, NO_LOCAL_TOKEN } from './types';
 import { setAlert } from './alert';
 import setAuthToken from '../utils/setAuthToken';
 
@@ -7,16 +7,22 @@ import setAuthToken from '../utils/setAuthToken';
 export const loadUser = () => async dispatch => {
     if (localStorage.token) {
         setAuthToken(localStorage.token);
+
+        try {
+            const res = await axios.get('/api/auth');
+            dispatch({
+                type: USER_LOADED,
+                payload: res.data,
+            })
+        } catch (error) {
+            dispatch({
+                type: LOAD_USER_FAILED
+            })
+        }
     }
-    try {
-        const res = await axios.get('/api/auth');
+    else {
         dispatch({
-            type: USER_LOADED,
-            payload: res.data,
-        })
-    } catch (error) {
-        dispatch({
-            type: AUTH_ERROR
+            type: NO_LOCAL_TOKEN
         })
     }
 }
