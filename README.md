@@ -2,12 +2,11 @@
 
 ## This is a guide for using this template(V1).
 
-### Final view(deployed): [https://morning-crag-93371.herokuapp.com/](https://morning-crag-93371.herokuapp.com/)
+### Final view(deployed): [https://safe-oasis-55973.herokuapp.com/](https://safe-oasis-55973.herokuapp.com/)
 
 <p align="center">
 <img src="./assets/59.png" width=85%>
 </p>
-
 <p align="center">
 <img src="./assets/59-2.png" width=85%>
 </p>
